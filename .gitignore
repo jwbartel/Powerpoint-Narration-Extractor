@@ -1,6 +1,17 @@
 *.class
+*.classpath
+*.project
+*.settings
+*credentials
+*config.php
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Ignore files from SyncToy
+*SyncToy_*
+
+# Ignore libraries
+*google-api-php-client/
